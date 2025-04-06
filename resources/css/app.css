@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .max-w-c {
+        @apply md:max-w-[50%];
+    }
+
+    .icon-button-wrapper {
+        @apply flex justify-center items-center bg-white p-2.5 rounded-2xl border border-teal-50 overflow-hidden shadow-md;
+    }
+}
